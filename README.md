@@ -25,7 +25,7 @@ npm run ios
 npm run android
 ```
 
-## Testes (básico) e ESLint (básico),
+## Testes (básico) e ESLint (básico)
 
 ```
 npm test
