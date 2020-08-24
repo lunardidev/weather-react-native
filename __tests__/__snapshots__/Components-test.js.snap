@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the Loading component correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignContent": "center",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "justifyContent": "center",
+      },
+    ]
+  }
+>
+  <ActivityIndicator
+    animating={true}
+    color="#999999"
+    hidesWhenStopped={true}
+    size="large"
+  />
+</View>
+`;
+
+exports[`should render the Tab component correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {},
+    ]
+  }
+>
+  <RCTScrollView
+    contentContainerStyle={
+      Object {
+        "paddingLeft": 0,
+        "paddingRight": 0,
+      }
+    }
+    horizontal={true}
+    showsHorizontalScrollIndicator={false}
+    style={
+      Array [
+        Object {},
+      ]
+    }
+  >
+    <View />
+  </RCTScrollView>
+</View>
+`;

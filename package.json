@@ -1,0 +1,51 @@
+{
+  "name": "climatempo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint .",
+    "watch:clean": "watchman watch-del-all && rm -rf /tmp/metro-bundler-cache-* && rm -rf /tmp/haste-map-react-native-packager-* && killall node",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json cd&& npm install"
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.12.0",
+    "@react-native-community/geolocation": "^2.0.2",
+    "@react-native-community/netinfo": "^5.9.6",
+    "axios": "^0.19.2",
+    "prop-types": "^15.7.2",
+    "react": "16.13.1",
+    "react-devtools": "^4.8.2",
+    "react-native": "0.63.2",
+    "react-native-linear-gradient": "^2.5.6",
+    "reactotron-react-native": "^5.0.0",
+    "styled-components": "^5.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/runtime": "^7.8.4",
+    "@testing-library/jest-native": "^3.3.0",
+    "@testing-library/react-native": "^7.0.2",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^25.1.0",
+    "babel-plugin-root-import": "^6.5.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-import-resolver-babel-plugin-root-import": "^1.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.0",
+    "eslint-plugin-react-native": "^3.9.0",
+    "jest": "^25.1.0",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "prettier-eslint": "^11.0.0",
+    "react-test-renderer": "16.13.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

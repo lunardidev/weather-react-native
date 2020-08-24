@@ -1,0 +1,277 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the weather details correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {},
+    ]
+  }
+>
+  <RCTScrollView
+    contentContainerStyle={
+      Object {
+        "paddingLeft": 0,
+        "paddingRight": 0,
+      }
+    }
+    horizontal={false}
+    showsHorizontalScrollIndicator={false}
+    style={
+      Array [
+        Object {
+          "height": "100%",
+          "paddingBottom": 20,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 40,
+        },
+      ]
+    }
+  >
+    <View>
+      <View
+        style={
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "paddingBottom": 10,
+              "paddingLeft": 10,
+              "paddingRight": 10,
+              "paddingTop": 10,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#232526",
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "fontSize": 16,
+                "fontWeight": "600",
+              },
+            ]
+          }
+        >
+          Humidade: 
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#112d32",
+                "display": "flex",
+                "flexBasis": 0,
+                "flexDirection": "row",
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "fontSize": 16,
+                "fontWeight": "400",
+              },
+            ]
+          }
+        >
+          10
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "paddingBottom": 10,
+              "paddingLeft": 10,
+              "paddingRight": 10,
+              "paddingTop": 10,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#232526",
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "fontSize": 16,
+                "fontWeight": "600",
+              },
+            ]
+          }
+        >
+          Velocidade do vento: 
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#112d32",
+                "display": "flex",
+                "flexBasis": 0,
+                "flexDirection": "row",
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "fontSize": 16,
+                "fontWeight": "400",
+              },
+            ]
+          }
+        >
+          200km/h
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "paddingBottom": 10,
+              "paddingLeft": 10,
+              "paddingRight": 10,
+              "paddingTop": 10,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#232526",
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "fontSize": 16,
+                "fontWeight": "600",
+              },
+            ]
+          }
+        >
+          Nascer do Sol: 
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#112d32",
+                "display": "flex",
+                "flexBasis": 0,
+                "flexDirection": "row",
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "fontSize": 16,
+                "fontWeight": "400",
+              },
+            ]
+          }
+        >
+          5.45pm
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "paddingBottom": 10,
+              "paddingLeft": 10,
+              "paddingRight": 10,
+              "paddingTop": 10,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#232526",
+                "flexBasis": 0,
+                "flexGrow": 2,
+                "flexShrink": 1,
+                "fontSize": 16,
+                "fontWeight": "600",
+              },
+            ]
+          }
+        >
+          Pôr do Sol: 
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#112d32",
+                "display": "flex",
+                "flexBasis": 0,
+                "flexDirection": "row",
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "fontSize": 16,
+                "fontWeight": "400",
+              },
+            ]
+          }
+        >
+          6.25am
+        </Text>
+      </View>
+      <View
+        accessibilityRole="button"
+        accessibilityState={Object {}}
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {},
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#007AFF",
+                  "fontSize": 18,
+                  "margin": 8,
+                  "textAlign": "center",
+                },
+              ]
+            }
+          >
+            Atualizar
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
